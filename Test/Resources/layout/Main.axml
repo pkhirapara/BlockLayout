@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    style="@android:style/Holo.ButtonBar"
+    android:background="@android:color/holo_blue_bright">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                android:text="Status"
+                android:layout_column="0"
+                android:id="@+id/textView10"
+                android:layout_width="90.0dp"
+                android:background="@android:color/holo_blue_dark"
+                android:padding="5" />
+            <TextView
+                android:text="On(green)"
+                android:layout_column="1"
+                android:id="@+id/textView11"
+                android:layout_width="72.0dp"
+                android:background="@android:color/holo_green_dark"
+                android:padding="5" />
+            <TextView
+                android:text="Off(red)"
+                android:id="@+id/textView12"
+                android:background="@android:color/holo_red_light"
+                android:padding="5" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:text="Start"
+                android:layout_column="0"
+                android:id="@+id/textView19"
+                android:background="@android:color/holo_orange_light"
+                android:padding="5" />
+            <TextView
+                android:text="Name"
+                android:layout_column="1"
+                android:id="@+id/textView20"
+                android:background="@android:color/darker_gray"
+                android:padding="5" />
+            <TextView
+                android:text="DT"
+                android:layout_column="2"
+                android:id="@+id/textView21"
+                android:background="@android:color/holo_blue_dark"
+                android:padding="5" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:translationX="1">
+            <TextView
+                android:text="VAR"
+                android:layout_column="0"
+                android:id="@+id/textView22"
+                android:background="@android:color/holo_blue_dark"
+                android:padding="5" />
+            <TextView
+                android:text="OP"
+                android:layout_column="1"
+                android:id="@+id/textView23"
+                android:background="@android:color/holo_green_light"
+                android:padding="5" />
+            <TextView
+                android:text="VAR"
+                android:layout_column="2"
+                android:id="@+id/textView24"
+                android:background="@android:color/holo_orange_light"
+                android:padding="5" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout2">
+        <TableRow
+            android:id="@+id/tableRow4">
+            <TextView
+                android:text="OP"
+                android:layout_column="0"
+                android:id="@+id/textView34"
+                android:layout_width="90.0dp"
+                android:background="@android:color/holo_orange_light"
+                android:padding="5" />
+            <TextView
+                android:text="Value"
+                android:layout_column="1"
+                android:id="@+id/textView35"
+                android:layout_width="73.0dp"
+                android:background="@android:color/holo_red_light"
+                android:padding="5" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5">
+            <TextView
+                android:text="VAR"
+                android:layout_column="0"
+                android:id="@+id/textView36"
+                android:background="@android:color/holo_blue_dark"
+                android:padding="5" />
+            <TextView
+                android:text="If"
+                android:layout_column="1"
+                android:id="@+id/textView37"
+                android:background="@android:color/holo_purple"
+                android:padding="5" />
+            <TextView
+                android:text="VAR"
+                android:layout_column="2"
+                android:id="@+id/textView38"
+                android:layout_width="58.5dp"
+                android:background="@android:color/holo_orange_light"
+                android:padding="5" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6">
+            <TextView
+                android:text="Motor"
+                android:layout_column="0"
+                android:id="@+id/textView39"
+                android:background="@android:color/holo_orange_light"
+                android:padding="5" />
+            <TextView
+                android:text="Direct"
+                android:layout_column="1"
+                android:id="@+id/textView40"
+                android:background="@android:color/holo_green_dark"
+                android:padding="5" />
+            <TextView
+                android:text="Speed"
+                android:layout_column="2"
+                android:id="@+id/textView41"
+                android:background="@android:color/holo_blue_dark"
+                android:padding="5" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout3">
+        <TableRow
+            android:id="@+id/tableRow7">
+            <TextView
+                android:text="Name"
+                android:layout_column="0"
+                android:id="@+id/textView51"
+                android:layout_width="90.0dp"
+                android:background="@android:color/holo_blue_dark"
+                android:padding="5" />
+            <TextView
+                android:text="DT"
+                android:layout_column="1"
+                android:id="@+id/textView52"
+                android:layout_width="73.5dp"
+                android:background="@android:color/holo_purple"
+                android:padding="5" />
+            <TextView
+                android:text="Value"
+                android:layout_column="2"
+                android:id="@+id/textView55"
+                android:layout_width="59.0dp"
+                android:background="@android:color/holo_orange_light"
+                android:padding="5" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow8">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow9">
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
